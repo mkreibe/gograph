@@ -1,0 +1,9 @@
+{
+  "type": "undirected",
+  "attributes": {
+    "description": "Bad Node id"
+  },
+  "nodes": [
+    { "id": "" }
+  ]
+}

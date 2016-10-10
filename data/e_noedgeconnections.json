@@ -1,0 +1,13 @@
+{
+  "type": "undirected",
+  "attributes": {
+    "description": "Bad Edge id"
+  },
+  "nodes": [
+    { "id": "1" },
+    { "id": "2" }
+  ],
+  "edges": [
+    [{"id": "a"}]
+  ]
+}

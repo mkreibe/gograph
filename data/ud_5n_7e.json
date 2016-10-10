@@ -1,0 +1,22 @@
+{
+  "type": "undirected",
+  "attributes": {
+    "description": "simple 5 node, 7 edge graph. Taken from CRLS."
+  },
+  "nodes": [
+    { "id": "1", "color": "green" },
+    { "id": "2" },
+    { "id": "3" },
+    { "id": "4" },
+    { "id": "5" }
+  ],
+  "edges": [
+    [{"id": "a", "style": "dashed"}, "1","2"],
+    [{"id": "b"}, "1","5"],
+    [{"id": "c"}, "2","3"],
+    [{"id": "d"}, "2","4"],
+    [{"id": "e"}, "2","5"],
+    [{"id": "f"}, "3","4"],
+    [{"id": "g"}, "4","5"]
+  ]
+}

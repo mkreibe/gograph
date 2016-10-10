@@ -1,0 +1,24 @@
+{
+  "type": "undirected",
+  "attributes": {
+    "description": "BFS test graph."
+  },
+  "nodes": [
+    { "id": "r" },
+    { "id": "s" },
+    { "id": "t" },
+    { "id": "u" },
+    { "id": "v" },
+    { "id": "w" },
+    { "id": "x" },
+    { "id": "y" }
+  ],
+  "edges": [
+    ["r","s"], ["r","v"],
+    ["s","w"],
+    ["t","w"], ["t","x"], ["t","u"],
+    ["u","y"],
+    ["w","x"],
+    ["x","y"]
+  ]
+}
